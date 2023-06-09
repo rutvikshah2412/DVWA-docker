@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE_NAME = "juanpab/vulnerable-app"
+        DOCKER_IMAGE_NAME = "rutvik/dvwa-vulnerable-app"
     }
     stages {
         stage('SonarQube Analysis') {
